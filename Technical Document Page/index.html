@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, intial scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title class="qgis">Quantum GIS</title>
+    </head>
+
+    <body>
+      <nav id="navbar">
+
+    <header>
+      DOCUMENTATION
+      </header>
+      <ul>
+      <li><a class="nav-link" href="#Topic_1">Topic 1</a></li>
+
+  <li><a class="nav-link" href="#Topic_2">Topic  2</a> </li>
+
+ <li> <a class="nav-link" href="#Topic_3">Topic  3</a> </li>
+ <li>
+  <a class="nav-link" href="#Topic_4">Topic  4</a></li>
+
+<li>  <a class="nav-link" href="#Topic_5">Topic  5</a></li>
+
+</ul>
+    </nav>
+
+
+      <main id="main-doc"> 
+        <h1 class="topic">Impact of Climate Change on Coastal Area in Bangladesh Using Quantum GIS.</h1>
+         <section id="Topic_1" class="main-section"> 
+    <header>Topic 1</header>  
+    <li>Abstract</li>
+    <p> The constant climate change could be devastating to vulnerable coastal forests in
+a densely populated country like Bangladesh. Moreover, it's affecting the function
+and structure of coastal areas and their rich natural resources. The vast collection
+of RS datasets available with GEE (e.g., archived Landsat and Sentinel images) will
+be helpful to address global challenges such as climate change. Remote sensing
+(RS) and QGIS applications can monitor the earth's surface and atmosphere on
+different scales such as global, regional, and local. Collecting images over
+additional years can detect the risk to reduce risk on coastal regions, and It can
+also analyze the coastal environment changes..</p>
+    <p> Using the Semi-Automatic
+Classification Plugin for QGIS, two Landsat images acquired over the study area
+have been classified. QGIS has facilitated processing big geo-data over large areas
+and monitoring the environment for long periods. Analyzing Landsat satellite
+imagery and aerial imagery, specific classification over large regions, and
+monitoring landscape over several decades can determine the change in the
+coastal areas</p>
+   
+    <code></code>
+    
+  </section>  
+  <section  id="Topic_2"  class="main-section"> 
+    <header>Topic 2</header> 
+    <li>Introduction</li>
+    <p>According to an agreement of COP21, Climate change is one of the defining challenges of our
+time, and it has been a most talked about the issue by different countries and communities the
+world over. The effects of climate change are already hitting the most vulnerable countries.
+Bangladesh has frequently faced extreme climatic events, such as erratic rainfall, flooding,
+drought, sea-level rise, cyclones, and salinity intrusion. Since the country is already evidencing
+the adverse impacts of global warming and climate change, there are different ways that it
+affects coastal areas. For example, climate shocks and stresses in Bangladesh are already
+damaging assets, undermining livelihoods, and displacing people from their homes.</p>
+    <p>Bangladesh, eighth-most populous country in the world, with a population of over 163 million
+with an area of 56,980 sq mi. Moreover, 29% of the population lives in coastal areas. Coastal
+areas in Bangladesh are on the front line of Climate Change. Due to climatic change, our
+country is vulnerable to storm surges, drainage congestion, and sea-level rise. The vast area of
+Bangladesh is less than ten meters above sea level, and for the other parts, almost ten percent
+of the country is below 1 meter, making it highly vulnerable to increasing high tides. Coastal
+areas are sensitive to sea-level rise, changes in the intensity of natural storms, precipitation
+increasing, and ocean temperatures getting down. The rising acidity of carbon dioxide (CO2)
+can significantly impact coastal and marine ecosystems.</p> 
+    <p>The consequences are likely to worsen problems that coastal areas already face. Confronting
+existing challenges that affect artificial infrastructure development and coastline, such as
+shoreline falling, increased flooding, and dense pollution in water is already a concern in many
+rural areas. There is a need for new ways to cope with this issue so that the life of the coastal
+regions becomes easier.</p>
+    <p>Remote Sensing and Geographic Information System provide practical tools such as QGIS, a
+geographic information system application that is used in viewing different geospatial data and
+analyzing them for monitoring different parts of the world, which is contributing to an
+ecosystem and socio-economic management.</li></p>
+    <p>This study used geospatial technology (QGIS, RS) to signify the importance of land cover
+changes over the coastal areas of Pirojpur, Barguna, Patuakhali, and Jhalokati, which possibly
+helped assess the area's change dynamics. Scientific change assessment may also help the
+government understand the current state of the area and the relationship between
+physiographic and manufactured features. The main objective is to evaluate the nature,
+significance, and rate of land area change from 2011-2021. Our main goal is to present a
+scientific result by monitoring rapid change and magnitude of change around the study area.
+With the introduction of Remote Sensing and GIS application, monitoring different parts of the8 | P a g e
+world has become easier and gaining popularity over the recent years. Therefore, a new idea of
+generating a digitize cover map so that the people can monitor the changes in the land cover
+using Satellite is going to be very useful for the people as well as the government.</p>
+    
+    <code></code>
+  </section>   
+ <section  id="Topic_3"  class="main-section"> 
+    <header>Topic 3</header> 
+    <li>Study Area</li>
+    <p>
+Our study area is the coastal areas of Pirojpur, Barguna, Patuakhali, and Jhalokati is located of
+Bangladesh, between the final coordinates of (22°N, 89°E), (22°N, 90°E), (22° N, 90° E), (21° N,
+90°E), (21° N, 89°E). The total area of our study area is calculated using the classification map
+including all Geographic features and land cover.</li></p>
+    <p><li>Data Collection</li>
+      First of all, we need a smooth data set with less cloud in the atmosphere. So, we collected our
+data set from USGS EarthExplorer. The USGS Earth Explorer is a similar tool to the USGS Global
+Visualization Viewer (GloVis) in that user search catalogs of satellite and aerial imagery.
+However, the USGS Earth Explorer is the new and improved version. In addition, the USGS Earth
+Explorer gives some extra capabilities: Downloading data over chronological timelines.13 | P a g e
+We downloaded Landsat 8 OLI (Operational Land Imager) and TIRS (Thermal Infrared Sensor)
+Level-1 under Landsat Collection 1 Level 1 from earth explorer.
+We reduced our dataset, and the final coordinates are (22°N, 89°E), (22°N, 90°E), (22° N, 90° E),
+(21° N, 90°E), (21° N, 89°E).
+The generated and digitized cover maps of the coastal area are (Pirojpur, Barguna, Patuakhali,
+and Jhalokati) of Bangladesh, which we will be using in the GIS application.</p> 
+
+<li>Data Analysis</li>
+<p>The comprehensive analysis is based on transforming ideas into maps and graphs. The raw
+Landsat-8 satellite images contain a cell value called Digital Number. The digital numbers for
+each image cell are first converted into reflectance values. After pre-processing, the study area
+(Pirojpur, Barguna, Patuakhali, and Jhalokati ) had been masked from the whole image. By
+doing this, the image size got reduced, which made the work more flexible and precise. After
+pre-processing, data classification were done to classify the map. All these necessary steps
+were done for this change detection analysis using the QGIS software tool. The integration of
+several methods identified the critical change areas.</p>
+    
+    <code></code>
+  </section>   
+ <section  id="Topic_4"  class="main-section"> 
+    <header>Topic 4</header> 
+    <li> Data Classification</li>
+    <p>It is helpful in performing classification previews to assess the classification quality (for
+example, a common problem is a soil classified as built-up and vice versa). However, if the
+preview result is not good, we need to go back to the phase of ROI creation, delete the faulty
+ROIs, and create new ones.
+The remotely-sensed image classification can be performed through several algorithms; we will
+use the Maximum Likelihood classification in this study.
+Maximum likelihood classification assumes that the statistics for each class in each band are
+typically distributed and calculates the probability that a given pixel belongs to a specific class.
+Unless you select a probability threshold, all pixels are classified. Then, each pixel is assigned to
+the class with the highest probability (the maximum likelihood). If the highest chance is smaller
+than the threshold we specify, the pixel remains unclassified.</p>
+
+    <li>Data Post Processing </li>
+    <p>This section aims to analyze land cover change using the Semi-Automatic Classification Plugin
+(SCP) Postprocessing tools. We will assess land cover change from two raster classifications and
+relate the changes to a land-use vector file.
+Here, we will take the raster classified file of our regions, as we are working on the last decade
+(2011 to 2021 season), so we divided the decade into two parts (2011 to 2016 season) and
+(2017 to 2021 season). We will apply LULC classification between these two-raster
+classifications.
+For change detection using LULC Classification, we must maintain two things, Firstly the classes
+of two raster classifications must be the same. In our work, we classified our map into 4 Macro
+Classes.
+i)waterbody, ii) agricultural land, iii) forest area, iv) surface.
+But, on the other hand, the sequence must need to be identical for both raster classifications.
+We need to choose our reference classification and the new classification for further
+movement.
+Reference classification is the previous SCP classification, and the new classification means the
+current SCP classification. Therefore, we choose the 2011 to 2016 raster image as reference
+classification for our work and 2017 to 2021 raster image as a new classification.</p>
+
+ <code>gi(x)=1np(ωi)-1/2 1n |Σi|-1/2(x-mi)^T Σi-1 (x-mi)</code>
+    <code>i = class
+x = n-dimensional data (where n is the number of bands)
+p(ωi) = probability that class ωi occurs in the image and is assumed the same for all classes
+|Σi| = determinant of the covariance matrix of the data in class ωi
+Σi-1 = its inverse matrix
+mi = mean vector</code>
+    
+  </section>   
+ <section  id="Topic_5"  class="main-section"> 
+    <header> Topic 5</header>  
+     <li>Discussion</li>
+<p>There are two broad methods of Change Detection Techniques includes- a) Pre-Classification
+Method b) Post Classification Method. Pre-Classification method analyzes the change without
+classifying the image. Post classification calculates the change in land cover based on a detailed
+categorized classification of land cover. Post Classification comparison, Aerial Difference
+calculation etc., are some common post-classification Change detection approaches.
+a) Pre-Classification Method
+For our project, we collected the maps from 2011-2021. We divided the maps into two parts
+(2011-2016) and (2017 to 2021).
+For the first part (2011-2016), We measured the changes in four categories: i) waterbody, ii)
+agricultural land, iii) forest area, iv) surface. We determined the coordinate where I) Upper
+Left: (177176.963,2494692.08) and II) Lower Right: (281567.879,2411730.38). From the
+classification, we found the following map (fig. 7). From this classification report, we used the
+given training input to calculate the value of the areas. The values are:
+i) waterbody is 2388167.1 sq km
+ii) agricultural land is 2635664.4 sq km
+iii) forest area is 1174818.6 sq km
+iv) surface area is 1973582.1 sq km </li></p>
+
+<p>For the second part (2017-2021), We measured the changes in four categories: i) waterbody, ii)
+agricultural land, iii) forest area, iv) surface. We determined the coordinate where I) Upper
+Left: (177176.963,2494692.08) and II) Lower Right: (281567.879,2411730.38). From the
+classification, we found the following map (fig. 7). From this classification report, we used the
+given training input to calculate the value of the areas. The values are:
+i)waterbody is2418135.3 sq km
+ii) agricultural land is 2331975.6 sq km
+iii) forest area is 434786.9 sq km
+iv) surface area is 2592711.9 sq km
+</p>
+<li>Conclusion</li>
+    <p>The coastal areas in Bangladesh are essential for economic development due to their rich
+natural resources. Therefore, there is an ongoing need for a monitoring application to create
+awareness among people living in the coastal areas. Remote sensing (RS) and GIS applications
+are powerful tools for monitoring the changes in the large areas of coastal regions by providing
+critical mapping and classification of the coverage map.
+For detecting changes in our study area, temporal Landsat-8 images of 2011-2021 have been
+used. We measured the changes in four categories: water body, agricultural land, forest area,
+surface area where progressive changes are found for agricultural land, forest area and surface.
+This study will support identifying the temporal changes. According to that, the intended
+authority will be able to take appropriate steps for the safety and progress of the people living
+in the coastal areas. We could still avoid the worst climate impacts by taking necessary steps,
+and urgent action is needed to build resilience through economic development to reduce the
+risks in our coastal regions. Our country, Bangladesh, would need to prepare for a long-term
+adaptation strategy. It is necessary to identify all present vulnerabilities and future
+opportunities, adjusting priorities for people living in the coastal areas while promoting training
+and education throughout the population in all possible spheres.</p>
+    
+   
+  </section>  
+
+  
+</main> 
+
+    
+ 
+      </body>
+  </html>
