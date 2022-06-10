@@ -1,0 +1,117 @@
+body{
+  background-color:WhiteSmoke;
+  background-image:url
+}
+
+
+#image{
+  max-width:100%;
+  background-repeat: no-repeat;
+  height:auto;
+  display:block;
+  margin-left: auto;  
+  margin-right: auto; 
+  padding:auto;
+  padding-top:10px;;
+
+
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  border-color: black;
+  width:50%;
+}
+
+#title{
+  text-align:center;
+}
+
+#img-caption{
+  padding-top:10px;
+  font-style:italic;
+  font-weight:bold;
+  text-align:center;
+}
+
+.description{
+font-family:Arial;
+padding:20px;
+text-align:left;
+
+
+}
+
+.carrierheading{
+  font-family: BentonSans;
+  
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: auto auto auto;
+  background-color:white;
+  padding: 0 25px;
+  text-align: left;
+  margin:20px;
+}
+
+.carrierheading {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px;
+  font-size: 17px;
+  text-align: left;
+  font-family:Monospace,Monaco;
+  font-weight:bold;
+}
+
+.carrieroverview{
+  font-size: 16px;
+
+}
+
+.carriersummary{
+background-color:white;
+width:auto;
+ font-size: 20px;
+  text-align:center;
+  
+}
+
+fieldset{
+margin:20px;
+width:auto;
+
+}
+
+.address {
+  margin-bottom: 5px;
+
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+.footerpart{
+  text-align:center;
+  font-weight:bold;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: blue;
+}
