@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Form</title>
+    </head>
+<body>
+  
+    <div class="container">
+      
+<h1 id="title">STUDENT SURVEY FORM</h1>
+<p id="description">Hasnabad Kamuchan Shah High School is an academic institute and one of the popular institute located at Hasnabad, Keraniganj, Dhaka. </p>
+<hr>
+<form id="survey-form">
+  
+  <fieldset>
+<label id="name-label" class="feedback">Name <input type="text" id="name" class="information" placeholder="Enter your Name" required></label>
+
+<label id="email-label" class="feedback">Email <input type="email" id="email" class="information" placeholder="Enter your email" required></label>
+
+<label id="number-label" class="feedback">Class <input type="number" id="number" min="6"  max="10" class="information" placeholder="Your Class" required></label>
+
+
+
+  <label class="feedback">Select Your Role:
+<select id="dropdown">
+<option value="">Select One</option>
+<option value="1">Student</option>
+<option value="2">Teacher</option>
+<option value="3">Staff</option>
+<option value="4">Guardian</option></label>
+  </select>
+
+
+<label class="feedback2"> How often do you visit our school website?
+</label>
+
+        <label><input type="radio" name="beneficial" value="daily" class="inline" />Daily</label>
+      
+
+        <label><input type="radio" value="weekly" name="beneficial" class="inline" />Weekly</label>
+    
+
+            <label class="feedback2">How good is this website for you? </label>
+            
+            <label>
+          <input type="checkbox" name="terms" value="Unstaisfactory" class="inline" required />Satisfactory</a>
+			  </label>
+
+<label>
+          <input type="checkbox" name="terms" value="Unstaisfactory" class="inline" required />Unstaisfactory</a>
+			  </label>
+            
+           
+
+<label class="feedback2">Upload your documents:
+          <input type="file" name="photographhurl" placeholder="your photo URL"></label>
+
+          <label class="feedback2">Any comments or suggestions?
+          <textarea name="bio" rows="5" cols="60" placeholder="Enter your comments..."></textarea>
+			  </label>
+          
+          <input type="submit" id="submit" value="SUBMIT">
+
+<footer class="address">
+        <p>
+          <a href="https://www.facebook.com/groups/1129890297374613" target="_blank">Visit our official group</a>
+        </p>
+        <p class="text">Hasnabad Kamuchan Shah High School</p>
+      </footer>
+           </fieldset>    
+</form>
+
+
+</div>
+
+
+</body>
+
+  </html>
